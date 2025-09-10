@@ -4,8 +4,6 @@ import urllib.parse
 import urllib.request
 import urllib.error
 
-import json
-
 
 def get_url(url:str, query:dict): # returns Tuple (List, Str) or None
     try:
@@ -24,3 +22,4 @@ def get_url(url:str, query:dict): # returns Tuple (List, Str) or None
     except Exception as e:
         print('urlopen exception:', e)
         return None
+
