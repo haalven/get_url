@@ -1,7 +1,15 @@
 get_url (url, query) function
 ============================
 
-returns Tuple or None
+-> returns Tuple or None
+
+-> Tuple is (headers, payload)
+
+-> headers is List, payload is String
+
+
+this is standard Python,
+in case you don't need Requests
 
 
 usage:
