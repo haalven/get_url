@@ -1,23 +1,15 @@
 get_url (url, query) function
 ============================
 
--> returns Tuple or None
-
--> Tuple is (headers, payload)
-
--> headers is List, payload is String
-
-
-this is standard Python,
-in case you don't need Requests
+-> returns Tuple (headers, payload)
 
 
 usage:
 
 
-response = get_url(url, query)
+response = get_url(url:str, query:dict)
 
-if response != None:
+if response != ([],''):
 
     headers, payload = response
 
@@ -26,4 +18,4 @@ if response != None:
 
 else:
 
-    # something went wrong
+    print('no data returned')
