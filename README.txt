@@ -18,4 +18,4 @@ if response != ([],''):
 
 else:
 
-    print('no data returned')
+    print('returned nothing')
