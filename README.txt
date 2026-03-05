@@ -1,5 +1,5 @@
-get_url (url, query) function
-============================
+get_url() function
+==================
 
 -> returns Tuple (headers, payload)
 
