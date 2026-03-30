@@ -1,7 +1,7 @@
 get_url() function
 ==================
 
--> returns Tuple (headers, payload)
+-> returns Tuple (headers:list, payload:str)
 
 
 usage:
